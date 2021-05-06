@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    </style>
+    <string name="Email"> Email </string>
+    <string name="Password"> Password </string>
+    <string name="Login"> Log In </string>
+    <string name="Signup"> Sign Up </string>
+    <string name="Name"> Enter name </string>
+    <string name="enter_email"> Enter email </string>
+    <string name="enter_password"> Enter password </string>
+    <string name="enter_phoneNumber"> Enter phone number </string>
+    <string name="MAIA"> ⓂⒶⒾⒶ</string>
+    <string name="Destination">Destination</string>
+    <string name="Source">Source</string>
+    <string name="Search">Search</string>
+    <string name="Multi">Multi trip</string>
+    <string name="Title">𝘉𝘶𝘺 𝘰𝘯𝘭𝘪𝘯𝘦 𝘵𝘳𝘪𝘱 𝘵𝘪𝘤𝘬𝘦𝘵𝘴</string>
+    <string name="trip">Filters</string>
+    <string name="addNumber">Add a number</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="Choose">Choose your route!</string>
+</resources>

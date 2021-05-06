@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@drawable/travel3"
+    tools:context="utilites.Register">
+
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="115dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/Name"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="@string/enter_email"
+        android:textColor="@color/white"
+        android:ems="10"
+        android:textColorHint="@color/white"
+        android:layout_below="@+id/editName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editEmail"
+        android:gravity="center"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="@string/enter_password"
+        android:textColor="@color/white"
+        android:ems="10"
+        android:layout_below="@+id/editEmail"
+        android:textColorHint="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editPassword"
+        android:gravity="center"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="@string/enter_phoneNumber"
+        android:textColor="@color/white"
+        android:ems="10"
+        android:textColorHint="@color/white"
+        android:layout_below="@+id/editPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editPhone"
+        android:gravity="center"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/register"
+        android:layout_width="203dp"
+        android:layout_height="80dp"
+        android:layout_alignTop="@+id/textView"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="441dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="23dp"
+        android:background="@drawable/my_button_bg"
+        android:text="@string/Signup" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="387dp"
+        android:layout_height="94dp"
+
+        app:srcCompat="@drawable/logo_bun" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/logo"
+        android:ems="4"
+        android:textSize="30sp"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="@string/MAIA" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="314dp"
+        android:text="CheckBox"
+        android:textColor="@color/black" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="354dp"
+        android:layout_marginEnd="0dp"
+        android:text="CheckBox" />
+
+</RelativeLayout>
